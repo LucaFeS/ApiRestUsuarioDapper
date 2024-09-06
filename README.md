@@ -1,3 +1,5 @@
+Metodologia utilizando Repository Pattern
+
 1 - Api = onde está localizado o Controller para recebimento e envio de requisições
 
 2 - Application = Onde fara o controle DTO para filtrar os melhores dados que serão enviados para o usuário
