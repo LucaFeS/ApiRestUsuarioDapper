@@ -11,4 +11,5 @@ Infraestrutura: Cuida da conexão com o banco de dados e dos métodos de intera�
 Roadmap:
 
 Implementação de JWT Authentication: Pendente
+
 Configuração de CORS: Pendente
