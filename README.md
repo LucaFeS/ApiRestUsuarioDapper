@@ -1,13 +1,14 @@
-Metodologia utilizando Repository Pattern
+Metodologia Utilizada: Repository Pattern
 
-1 - Api = onde está localizado o Controller para recebimento e envio de requisições
+API: Responsável pelo Controller, que lida com o recebimento e envio de requisições.
 
-2 - Application = Onde fara o controle DTO para filtrar os melhores dados que serão enviados para o usuário
+Application: Gerencia os DTOs para filtrar e entregar os dados mais relevantes ao usuário.
 
-3 - Domain = Onde está localizado toda a entidade e regras de negócios
+Domain: Contém as entidades e regras de negócio.
 
-4 - Infraestrutura = Conexão com o banco de dados e métodos que interagem com o mesmo
+Infraestrutura: Cuida da conexão com o banco de dados e dos métodos de interação com ele.
 
 Roadmap:
-- Adição de JWP JWT Authentication = Pendente
-- Adição de Cors = Pendente
+
+Implementação de JWT Authentication: Pendente
+Configuração de CORS: Pendente
