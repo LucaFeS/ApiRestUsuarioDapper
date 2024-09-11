@@ -1,0 +1,35 @@
+.custom-border-top {
+    border-top: 50px solid #fffefe; /* Cor e largura da linha */
+ 
+}
+
+/* Estilo para cards menores */
+.card {
+    /* Reduzir o tamanho geral do card */
+    max-width: 350px; /* Ajuste o tamanho conforme necessário */
+    margin: 0 auto; /* Centraliza o card horizontalmente */
+    padding: 10px; /* Adiciona um pouco de espaço interno */
+}
+
+.card-img-top {
+    /* Ajusta a imagem para caber dentro do card */
+    height: 350px; /* Ajuste a altura conforme necessário */
+    object-fit: cover; /* Faz com que a imagem cubra o espaço sem distorcer */
+}
+
+.card-body {
+    /* Ajusta o tamanho da fonte e o espaçamento */
+    font-size: 0.875rem; /* Tamanho da fonte menor */
+    padding: 10px; /* Ajusta o espaçamento interno do corpo do card */
+}
+
+.card-title {
+    /* Ajusta o tamanho do título do card */
+    font-size: 1.25rem; /* Tamanho do título do card */
+}
+
+.card-text {
+    /* Ajusta o tamanho do texto do card */
+    font-size: 0.875rem; /* Tamanho do texto do card */
+}
+

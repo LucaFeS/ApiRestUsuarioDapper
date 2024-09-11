@@ -1,0 +1,48 @@
+/* Centralizar a barra de pesquisa */
+.navbar .d-flex {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .form-control {
+    max-width: 500px; /* Ajuste o tamanho conforme necessário */
+}
+
+/* Estilizar os ícones na barra de navegação */
+.navbar .d-flex .text-light {
+    font-size: 1.2rem; /* Ajuste o tamanho dos ícones */
+}
+
+.navbar .d-flex .text-light i {
+    margin: 0 10px; /* Espaçamento entre os ícones */
+}
+
+
+/* Estilo para o botão de pesquisa */
+.search-input {
+    border-radius: 5px; /* Arredondar os cantos */
+    padding: 10px; /* Aumentar o espaçamento interno */
+}
+
+.search-button {
+    border-radius: 5px; /* Arredondar os cantos */
+    padding: 10px; /* Aumentar o tamanho do botão */
+    font-size: 1.2em; /* Aumentar o tamanho da fonte */
+    height: 50px; /* Ajustar a altura */
+    width: 50px; /* Ajustar a largura */
+}
+
+/* Estilo para ícones */
+.icon {
+    font-size: 1.5em; /* Aumentar o tamanho dos ícones */
+}
+
+/* Estilo para links dos ícones */
+.icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+

@@ -1,6 +1,5 @@
 ﻿
 using Domain.Models;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Domain.Interfaces.Interfaces
 {
